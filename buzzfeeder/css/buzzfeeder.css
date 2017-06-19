@@ -1,0 +1,50 @@
+body{margin: 0;
+     top: 0;
+     background-color: #f2f2f2;
+     font-family:'Roboto', sans-serif;}
+
+
+
+
+#about, #thelist, #whatitmeans{padding-top: 10vh;}
+h2{margin-top: 0;
+  font-family: 'Share Tech Mono', monospace;
+  color: #cc0000;}
+
+#sidebar ul{color: white;
+            background-color: #cc0000;
+            text-align: center;
+            box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+            font-family: 'Share Tech Mono', monospace;}
+            
+@media only screen and (max-width: 899px) {
+  #container{margin: 10px;}
+  #sidebar ul{padding-left: 0;}
+}
+
+
+@media only screen and (min-width: 900px) {
+#sidebar ul{list-style-type: none;
+   margin: 0;
+   padding: 10px;
+   padding-top: 30vh;
+   position: fixed;
+   height: 100vh;
+   overflow: auto;
+   width: 300px;
+   }
+   #container{margin: auto;
+              max-width: 800px;
+              margin-left: 350px;}
+ }/*end media query*/
+
+ul h1{font-family:'Titillium Web', sans-serif;
+      font-size: 240%;}
+ul li{padding: 10px;}
+
+ul a{text-decoration: none;
+     color: white;}
+ul a:hover{text-decoration: underline;}
+
+ul{list-style-type: none;
+   margin: 0;}
