@@ -1,7 +1,7 @@
 
 #------------------------import the libraries----------------------------------
-import requests
-from bs4 import BeautifulSoup
+import requests #<----- link: http://docs.python-requests.org/en/master/
+from bs4 import BeautifulSoup #<---- link: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 #---------------------create arrary and int to select arrary items------------
 catagory = ['food', 'animals', 'geeky', 'books', 'celebrity', 'community', 'health', 'lgbt', 'music', 'parents', 'politics', 'reader', 'rewind', 'science', 'sports',
 'style', 'tech', 'travel', 'weddings', 'world'] #<---- Array of strings used to alter url
