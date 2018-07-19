@@ -9,4 +9,3 @@ I also want to make a site that will take the results from this script and displ
 
 We'll see where this goes! If you want to run the script yourself, download both the python script and the bash script onto a linux system, and you should also download the requests and beautifulsoup 4 python libraries. Once you have done that, go into your command line, find the directory in which the bash file is located, and run it like you would any other bash script.
 
-Sorry it's not an easy process. I'm still new to this. I hope you enjoy it for what it is anyways and I hope to be back soon with some updates. 
