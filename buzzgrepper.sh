@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#-----Note: Yes, this is not the best way to do this.... but my BASH is better than my python ATM!
 #----------------------Run Python Script
 python buzzer.py > buzzListRaw.txt #<---- run the python script, output into text file
 
